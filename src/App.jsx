@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import PageAdel from './pages/PageAdel'
+import PageMyriam from './pages/PageMyriam'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route path='/adelpage' element={
           <PageAdel/>
       }/>
+        <Route path='/myriam' element={<PageMyriam/>}/>
       </Routes>
   
     </div>
